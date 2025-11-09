@@ -60,8 +60,6 @@ Las tablas del dashboard usan `thead`, `tbody` y `th scope="col"` para estructur
   - ![Mobile 4](/img/portfolio_mobile_4.png)
   - ![Mobile 5](/img/portfolio_mobile_5.png)
 
-*(En las capturas se puede ver cómo se adaptan las secciones con Grid y Flex según el tamaño de pantalla.)*
-
 ---
 
 ## Tecnologías utilizadas
