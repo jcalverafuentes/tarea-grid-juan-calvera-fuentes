@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Landing — Diseño moderno hecho con Grid + Flex</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="layout layout--landing">
+    <header class="header">
+      <div class="container header__inner">
+        <div class="header__logo" aria-hidden="true">LOGO</div>
+        <nav class="nav" aria-label="Navegación principal">
+          <a class="nav__link" href="#">Inicio</a>
+          <a class="nav__link" href="#">Características</a>
+          <a class="nav__link" href="#">Precios</a>
+          <a class="nav__link" href="#">Equipo</a>
+          <a class="nav__link" href="#">Contacto</a>
+        </nav>
+        <div class="header__cta">
+          <button class="btn btn--primary" type="button">Empezar</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="hero" id="main">
+      <div class="container hero__inner">
+        <section class="hero__text">
+          <h1 class="hero__title">Diseño moderno hecho con Grid + Flex</h1>
+          <p class="hero__subtitle">Recreación fiel usando Grid para el layout y Flex para la organización interna. Sin frameworks — solo HTML &amp; CSS.</p>
+          <div class="hero__actions">
+            <button class="btn btn--primary" type="button">Empezar</button>
+            <button class="btn btn--ghost" type="button">Ver más</button>
+          </div>
+        </section>
+
+        <figure class="hero__visual" aria-hidden="true">
+          <div class="placeholder placeholder--hero" role="img" aria-label="Placeholder visual"></div>
+        </figure>
+      </div>
+    </main>
+
+    <section class="features" aria-label="Características principales">
+      <div class="container features__inner">
+        <article class="feature-card">
+          <h3 class="feature-card__title">Rápido</h3>
+          <p class="feature-card__text">Estructura optimizada y CSS puro para máxima velocidad.</p>
+        </article>
+        <article class="feature-card">
+          <h3 class="feature-card__title">Accesible</h3>
+          <p class="feature-card__text">Contraste AA, focus-visible y landmarks semánticos.</p>
+        </article>
+        <article class="feature-card">
+          <h3 class="feature-card__title">Responsivo</h3>
+          <p class="feature-card__text">Diseño adaptado a desktop, tablet y móvil.</p>
+        </article>
+        <article class="feature-card">
+          <h3 class="feature-card__title">Mantenible</h3>
+          <p class="feature-card__text">Variables CSS y convención BEM para claridad.</p>
+        </article>
+        <article class="feature-card">
+          <h3 class="feature-card__title">Escalable</h3>
+          <p class="feature-card__text">Grid + minmax() para hacer crecer la UI.</p>
+        </article>
+        <article class="feature-card">
+          <h3 class="feature-card__title">Modular</h3>
+          <p class="feature-card__text">Componentes reutilizables para secciones.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="cta" aria-label="Llamada a la acción final">
+      <div class="container cta__inner">
+        <h2 class="cta__title">¿Listo para empezar con Grid + Flex?</h2>
+        <button class="btn btn--primary btn--large" type="button">Empezar ahora</button>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div class="footer__col">
+          <h4 class="footer__title">Producto</h4>
+          <ul class="footer__list">
+            <li><a href="#">Características</a></li>
+            <li><a href="#">Precios</a></li>
+            <li><a href="#">Docs</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__title">Compañía</h4>
+          <ul class="footer__list">
+            <li><a href="#">Sobre nosotros</a></li>
+            <li><a href="#">Carreras</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__title">Recursos</h4>
+          <ul class="footer__list">
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Guías</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__title">Soporte</h4>
+          <ul class="footer__list">
+            <li><a href="#">Centro de ayuda</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__copyright">
+        <p aria-hidden="false">© 2025 - Juan Calvera Fuentes.</p>
+      </div>
+    </footer>
+  </div>
+
+</body>
+</html>

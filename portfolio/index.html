@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portfolio - Grid + Flex</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="layout layout--portfolio">
+    <header class="header" aria-label="Cabecera">
+      <div class="header__inner">
+        <div class="logo">LOGO</div>
+        <nav class="nav" aria-label="Navegación principal">
+          <a href="#" class="nav__link">Inicio</a>
+          <a href="#" class="nav__link">Proyectos</a>
+          <a href="#" class="nav__link">Servicios</a>
+          <a href="#" class="nav__link">Acerca</a>
+          <a href="#" class="nav__link">Contacto</a>
+        </nav>
+        <div><button class="btn btn--primary">Contactar</button></div>
+      </div>
+    </header>
+
+    <main class="gallery" aria-label="Galería de proyectos">
+      <article class="project" style="--h:200px">
+        <h2 class="project__title">Proyecto 01</h2>
+        <div class="project__thumb">Proyecto 01</div>
+        <div class="project__caption">Proyecto 01</div>
+      </article>
+      <article class="project" style="--h:260px">
+        <h2 class="project__title">Proyecto 02</h2>
+        <div class="project__thumb">Proyecto 02</div>
+        <div class="project__caption">Proyecto 02</div>
+      </article>
+      <article class="project" style="--h:320px">
+        <h2 class="project__title">Proyecto 03</h2>
+        <div class="project__thumb">Proyecto 03</div>
+        <div class="project__caption">Proyecto 03</div>
+      </article>
+      <article class="project" style="--h:360px">
+        <h2 class="project__title">Proyecto 04</h2>
+        <div class="project__thumb">Proyecto 04</div>
+        <div class="project__caption">Proyecto 04</div>
+      </article>
+      <article class="project" style="--h:260px">
+        <h2 class="project__title">Proyecto 05</h2>
+        <div class="project__thumb">Proyecto 05</div>
+        <div class="project__caption">Proyecto 05</div>
+      </article>
+      <article class="project" style="--h:200px">
+        <h2 class="project__title">Proyecto 06</h2>
+        <div class="project__thumb">Proyecto 06</div>
+        <div class="project__caption">Proyecto 06</div>
+      </article>
+      <article class="project" style="--h:320px">
+        <h2 class="project__title">Proyecto 07</h2>
+        <div class="project__thumb">Proyecto 07</div>
+        <div class="project__caption">Proyecto 07</div>
+      </article>
+      <article class="project" style="--h:360px">
+        <h2 class="project__title">Proyecto 08</h2>
+        <div class="project__thumb">Proyecto 08</div>
+        <div class="project__caption">Proyecto 08</div>
+      </article>
+      <article class="project" style="--h:200px">
+        <h2 class="project__title">Proyecto 09</h2>
+        <div class="project__thumb">Proyecto 09</div>
+        <div class="project__caption">Proyecto 09</div>
+      </article>
+      <article class="project" style="--h:260px">
+        <h2 class="project__title">Proyecto 10</h2>
+        <div class="project__thumb">Proyecto 10</div>
+        <div class="project__caption">Proyecto 10</div>
+      </article>
+      <article class="project" style="--h:320px">
+        <h2 class="project__title">Proyecto 11</h2>
+        <div class="project__thumb">Proyecto 11</div>
+        <div class="project__caption">Proyecto 11</div>
+      </article>
+      <article class="project" style="--h:360px">
+        <h2 class="project__title">Proyecto 12</h2>
+        <div class="project__thumb">Proyecto 12</div>
+        <div class="project__caption">Proyecto 12</div>
+      </article>
+    </main>
+
+    <section class="contact" aria-label="Contacto">
+      <div class="contact__inner">
+        <form class="contact__form" novalidate>
+          <label>
+            Nombre
+            <input type="text" name="name" placeholder="Nombre" />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="email@ejemplo.com" />
+          </label>
+          <label>
+            Mensaje
+            <textarea name="message" placeholder="Tu mensaje"></textarea>
+          </label>
+          <button class="btn btn--primary" type="submit">Enviar</button>
+        </form>
+
+        <aside class="contact__info">
+          <h3>Contacto</h3>
+          <p>Escríbenos y hablamos del proyecto.</p>
+          <p>Email: hola@ejemplo.com</p>
+        </aside>
+      </div>
+    </section>
+
+    <footer class="footer" role="contentinfo" aria-label="Pie">
+      <div class="footer__wrap">
+        <div>© 2025 Portfolio - Juan Calvera Fuentes</div>
+        <div class="footer__links"><a href="#">Privacy</a> · <a href="#">Terms</a></div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

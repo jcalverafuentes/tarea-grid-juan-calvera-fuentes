@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Dashboard — Grid + Flex</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="layout layout--dashboard" role="application">
+    <aside class="sidebar" aria-label="Barra lateral">
+      <div class="sidebar__top">
+       <div class="sidebar__logo">
+           <div class="logo" aria-hidden="true">LOGO</div>
+        </div>
+        <nav class="sidebar__nav" aria-label="Menu lateral">
+          <a class="sidebar__link" href="#">Panel</a>
+          <a class="sidebar__link" href="#">Proyectos</a>
+          <a class="sidebar__link" href="#">Clientes</a>
+          <a class="sidebar__link" href="#">Informes</a>
+          <a class="sidebar__link" href="#">Ajustes</a>
+          <a class="sidebar__link" href="#">Soporte</a>
+        </nav>
+      </div>
+      <div class="sidebar__user">
+        <div class="user">
+          <div class="user__avatar" aria-hidden="true">👤</div>
+          <div class="user__info">
+            <div class="user__name">Juan Calvera</div>
+            <div class="user__role">Admin</div>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <header class="header">
+      <div class="header__inner container">
+        <div class="header__search">
+          <input id="search" class="search" type="search" placeholder="Buscar..." aria-label="Buscar">
+        </div>
+        <div class="header__actions">
+          <button class="icon-btn" aria-label="Notificaciones">🔔</button>
+          <button class="icon-btn" aria-label="Ajustes">⚙️</button>
+          <button class="icon-btn" aria-label="Perfil">👤</button>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <section class="kpis" aria-label="KPI cards">
+          <article class="kpi">
+            <h3 class="kpi__title">Usuarios</h3>
+            <div class="kpi__value">1,234</div>
+            <div class="kpi__note">+12% este mes</div>
+          </article>
+          <article class="kpi">
+            <h3 class="kpi__title">Ventas</h3>
+            <div class="kpi__value">€12,345</div>
+            <div class="kpi__note">+8% vs semana anterior</div>
+          </article>
+          <article class="kpi">
+            <h3 class="kpi__title">Sesiones</h3>
+            <div class="kpi__value">23,456</div>
+            <div class="kpi__note">Media diaria</div>
+          </article>
+          <article class="kpi">
+            <h3 class="kpi__title">Tasa Rebote</h3>
+            <div class="kpi__value">34%</div>
+            <div class="kpi__note">Objetivo 25%</div>
+          </article>
+        </section>
+        <section class="table-section" aria-label="Tabla de ejemplo">
+          <header class="table-section__header">
+            <h2>Actividades recientes</h2>
+          </header>
+          <table class="data-table" aria-label="Tabla de actividades">
+            <thead>
+              <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Estado</th>
+                <th scope="col">Fecha</th>
+                <th scope="col">Importe</th>
+                <th scope="col">Acciones</th>
+              </tr>
+            </thead>
+            <tbody>
+               <tr>
+                <td>001</td>
+                <td>Proyecto Aurora</td>
+                <td>En desarrollo</td>
+                <td>2025-10-01</td>
+                <td>€1,200</td>
+                <td><button class="btn btn--small">Ver</button></td>
+              </tr>
+              <tr>
+                <td>002</td>
+                <td>Proyecto Boreal</td>
+                <td>En pausa</td>
+                <td>2025-09-25</td>
+                <td>€3,450</td>
+                <td><button class="btn btn--small">Ver</button></td>
+              </tr>
+              <tr>
+                <td>003</td>
+                <td>Proyecto Delta</td>
+                <td>En revisión</td>
+                <td>2025-11-02</td>
+                <td>€2,750</td>
+                <td><button class="btn btn--small">Ver</button></td>
+              </tr>
+              <tr>
+                <td>004</td>
+                <td>Proyecto Epsilon</td>
+                <td>Activo</td>
+                <td>2025-10-15</td>
+                <td>€5,100</td>
+                <td><button class="btn btn--small">Ver</button></td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container footer__inner">
+        <p>© 2025 Dashboard - Juan Calvera Fuentes</p>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
