@@ -34,31 +34,32 @@ Las tablas del dashboard usan `thead`, `tbody` y `th scope="col"` para estructur
 ## Capturas de pantalla
 
 - **Landing**  
-  - ![Desktop 1](/img/landing_desktop_1.png)
-  - ![Desktop 2](/img/landing_desktop_2.png)
-  - ![Tablet 1](/img/landing_tablet_1.png) 
-  - ![Tablet 2](/img/landing_tablet_2.png)  
-  - ![Mobile 1](/img/landing_mobile_1.png)  
-  - ![Mobile 2](/img/landing_mobile_2.png)  
+
+  **Desktop (1440×900)**
+  - ![Desktop](/img/landing_desktop.png)
+  **Tablet (1024×768)**
+  - ![Tablet](/img/landing_tablet.png)
+  **Mobile (375×812)**
+  - ![Mobile](/img/landing_mobile.png) 
 
 
-- **Dashboard**  
-  - ![Desktop](/img/dashboard_desktop.png)
-  - ![Tablet](/img/dashboard_tablet.png)  
+- **Dashboard** 
+
+  **Desktop (1440×900)** 
+  - ![Desktop](/img/dashboard_desktop.png) 
+  **Tablet (1024×768)**
+  - ![Tablet](/img/dashboard_tablet.png)
+  **Mobile (375×812)**
   - ![Mobile](/img/dashboard_mobile.png)  
 
 - **Portfolio**  
-  - ![Desktop 1](/img/portfolio_desktop_1.png)
-  - ![Desktop 2](/img/portfolio_desktop_2.png)
-  - ![Tablet 1](/img/portfolio_tablet_1.png)
-  - ![Tablet 2](/img/portfolio_tablet_2.png)
-  - ![Tablet 3](/img/portfolio_tablet_3.png)
-  - ![Tablet 4](/img/portfolio_tablet_4.png)
-  - ![Mobile 1](/img/portfolio_mobile_1.png)
-  - ![Mobile 2](/img/portfolio_mobile_2.png)
-  - ![Mobile 3](/img/portfolio_mobile_3.png)
-  - ![Mobile 4](/img/portfolio_mobile_4.png)
-  - ![Mobile 5](/img/portfolio_mobile_5.png)
+
+  **Desktop (1440×900)**
+  - ![Desktop](/img/portfolio_desktop.png)
+  **Tablet (1024×768)**
+  - ![Tablet](/img/portfolio_tablet.png)
+  **Mobile (375×812)**
+  - ![Mobile](/img/portfolio_mobile.png)
 
 ---
 
